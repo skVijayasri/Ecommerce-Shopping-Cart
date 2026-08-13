@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Cart</title>
+
+    <title>ShopEasy - Home</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!-- Top Bar -->
@@ -13,58 +16,138 @@
         Support: +91 9876543210 | Get 25% OFF on first order
     </div>
 
-    <!-- Navbar -->
+
+    <!-- Navigation -->
     <nav>
-        <div class="logo">ShopEasy</div>
+
+        <div class="logo">
+            ShopEasy
+        </div>
+
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#shop">Shop</a></li>
-            <li><a href="#cart-section">Cart</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="shop.html">Shop</a>
+            </li>
+
+            <li>
+                <a href="cart.html">Cart</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
         </ul>
+
     </nav>
 
-    <!-- Header -->
-    <header id="home">
-        <h1>Shopping Cart</h1>
-        <p>Welcome to ShopEasy Store</p>
+
+    <!-- Hero Section -->
+    <header class="home-header">
+
+        <h1>
+            Welcome to ShopEasy
+        </h1>
+
+        <p>
+            Your one-stop online shopping store
+        </p>
+
+        <a href="shop.html" class="shop-now-btn">
+            Shop Now
+        </a>
+
     </header>
 
-    <!-- Main Container -->
-    <div class="container">
 
-        <!-- Products -->
-        <div class="products-section" id="shop">
-            <h2>Products</h2>
-            <div id="products"></div>
+    <!-- Features -->
+    <section class="home-section">
+
+        <h2>
+            Why Shop With Us?
+        </h2>
+
+
+        <div class="features">
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    🚚
+                </div>
+
+                <h3>
+                    Fast Delivery
+                </h3>
+
+                <p>
+                    Get your products delivered quickly and safely.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    💰
+                </div>
+
+                <h3>
+                    Best Prices
+                </h3>
+
+                <p>
+                    Quality products at affordable prices.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    🔒
+                </div>
+
+                <h3>
+                    Secure Shopping
+                </h3>
+
+                <p>
+                    Enjoy a safe and secure shopping experience.
+                </p>
+
+            </div>
+
         </div>
 
-        <!-- Cart -->
-        <div class="cart-section" id="cart-section">
-            <h2>Your Cart</h2>
-            <div id="cart"></div>
-        </div>
+    </section>
 
-        <!-- Order Summary -->
-        <div class="summary-section">
-            <h2>Order Summary</h2>
-            <p>Total Items: <span id="total-items">0</span></p>
-            <p>Total Price: ₹<span id="total-price">0</span></p>
-            <button class="checkout-btn" onclick="checkout()">Proceed to Checkout</button>
-        </div>
-
-    </div>
 
     <!-- Footer -->
-    <footer id="contact">
-        <div class="footer-content">
-            <h3>ShopEasy</h3>
-            <p>Best Ecommerce Shopping</p>
-            <p>Email: shopeasy@gmail.com</p>
-            <p>Phone: +91 9876543210</p>
-        </div>
+    <footer>
+
+        <h3>
+            ShopEasy
+        </h3>
+
+        <p>
+            Best Ecommerce Shopping
+        </p>
+
+        <p>
+            Email: shopeasy@gmail.com
+        </p>
+
+        <p>
+            Phone: +91 9876543210
+        </p>
+
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
