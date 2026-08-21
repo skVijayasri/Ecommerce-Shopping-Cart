@@ -1,6 +1,6 @@
 # E-Commerce Website
 
-A full-stack e-commerce web application built using HTML, CSS, JavaScript, and Node.js. The application provides users with a responsive shopping experience including product browsing, product categories, and shopping cart functionality.
+A full-stack e-commerce web application built using HTML, CSS, JavaScript, Node.js, Express.js, and MySQL. The application provides users with a responsive shopping experience including product browsing, product categories, and shopping cart functionality.
 
 ## Features
 
@@ -10,8 +10,9 @@ A full-stack e-commerce web application built using HTML, CSS, JavaScript, and N
 - Product images
 - Responsive user interface
 - Contact page
-- Node.js backend
-- Backend API integration
+- Node.js and Express.js backend
+- MySQL database integration
+- REST API for product data
 
 ## Technologies Used
 
@@ -20,6 +21,7 @@ A full-stack e-commerce web application built using HTML, CSS, JavaScript, and N
 - JavaScript
 - Node.js
 - Express.js
+- MySQL
 
 ## Project Structure
 
