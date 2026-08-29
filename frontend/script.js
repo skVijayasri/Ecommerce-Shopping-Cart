@@ -15,7 +15,7 @@ async function loadProducts() {
 
         const response =
             await fetch(
-                "http://localhost:5000/products"
+                " https://ecommerce-shopping-cart-dz42.onrender.com/products"
             );
 
 
